@@ -4,10 +4,13 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs;
+  Dialogs, DBTables, DB;
 
 type
   TForm1 = class(TForm)
+    Session1: TSession;
+    Query1: TQuery;
+    Database1: TDatabase;
   private
     { Private declarations }
   public

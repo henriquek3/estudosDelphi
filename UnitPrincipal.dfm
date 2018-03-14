@@ -1,6 +1,6 @@
 object Form1: TForm1
-  Left = 192
-  Top = 125
+  Left = 257
+  Top = 137
   Width = 1305
   Height = 675
   Caption = 'Form1'
@@ -13,4 +13,18 @@ object Form1: TForm1
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
+  object Session1: TSession
+    Left = 240
+    Top = 104
+  end
+  object Query1: TQuery
+    Left = 112
+    Top = 72
+  end
+  object Database1: TDatabase
+    AliasName = 'aurora'
+    SessionName = 'Default'
+    Left = 280
+    Top = 24
+  end
 end
